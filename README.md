@@ -26,13 +26,19 @@
 
 ### 🚀 Key Projects
 
-* **[FuzzGate]**
-  * Rust 기반 Format-Aware Fuzzing 검증 아키텍처 기획 및 개발
-  * 크래시 자동 탐지 및 리포팅 파이프라인 구축 (한국정보보호학회 포스터 발표)
-* **[PQC Constant-Time Optimization & Verification]** *(Private Repository)*
-  * Classic McEliece 기반 퍼지 추출기 모듈 C/C++ 포팅 및 상수 시간(Constant-Time) 최적화
-  * TVLA 방법론을 통한 타이밍 부채널 정보 누출 통계적 검증 완료
-* **[Iris Feature Extraction API]**
+- **[FuzzGate](https://github.com/sukwoo1234/new-bugbounty)** — AI 모델 포맷 퍼저 (Rust)
+  * ONNX / safetensors / GGUF 로더의 메모리 안정성을 검증하는 Format-Aware Fuzzing 플랫폼 **단독 개발**
+  * 포맷 인지 변이 → 타깃 하네스 실행 → 3회 재현 검증 → 취약점 등급화 → 자동 리포트 파이프라인
+  * SARIF / SIEM 이벤트 출력으로 기존 DevSecOps·보안 관제 파이프라인 통합 지원
+  * 논문에서 제안한 아키텍처를 직접 구현해 재현 가능한 크래시 2건 발견, huntr 제보 (심사 중)
+    — ONNX Runtime SIGSEGV / ONNX shape inference SIGFPE
+
+- **[청대 시그널](https://github.com/sukwoo1234/cheongdae-signal)** — 교내 매칭 웹 서비스 (TypeScript)
+  * Next.js + Supabase 기반. 설계 문서 작성부터 배포·운영까지 단독 수행
+  * 학교 이메일 인증 기반 가입 통제, 미들웨어 라우트 보호, 관리자 권한 분리
+  * Vercel 자동 배포 · 운영 중 → https://cheongdae-signal.vercel.app
+
+- **[Iris Feature Extraction API]**
   * CNN(ArcFace) 기반 3488-bit 홍채 특징 추출 모듈 개발 및 API 서버 통합
 
 ---
