@@ -7,6 +7,7 @@
 - 🛡️ **Security & Engineering:** 단순한 기능 구현을 넘어 메모리 안전성과 논리적 결함 방지를 고려한 로우레벨 시스템을 설계합니다.
 - ⚙️ **Automation & Productivity:** Rust와 AI CLI 에이전트를 적극 활용하여 개발 생산성을 높이고, 핵심 로직 검증에 집중합니다.
 - 🎯 **Interest:** Format-Aware Fuzzing, Post-Quantum Cryptography (PQC), Side-Channel Analysis (TVLA), CTF
+- 🚀 **Build & Ship:** 도구든 서비스든, 설계 문서부터 배포·운영까지 직접 끝냅니다.
 
 ---
 
@@ -16,6 +17,7 @@
 <img src="https://img.shields.io/badge/C%2F%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
 <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
 
 **Infrastructure & Tools**  
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
@@ -42,6 +44,17 @@
   * CNN(ArcFace) 기반 3488-bit 홍채 특징 추출 모듈 개발 및 API 서버 통합
 
 ---
+
+### 📄 Publications
+
+- **[제1저자]** AI 모델 공급망 보안을 위한 Format-Aware Fuzzing 기반 검증 아키텍처 FuzzGate
+  — 한국정보보호학회 CISC-S 2026
+- **[제1저자]** 유무선 네트워크 환경에 따른 Google reCAPTCHA v2의 취약점 분석 연구
+  — 한국정보보호학회 CISC-S 2026
+- **[공저]** 상수시간으로 구현된 BCH 기반 퍼지추출기의 타이밍 공격 취약성 실험 분석
+  — 정보보호학회논문지(JKIISC), 2026
+
+  ---
 
 ### 📫 Contact
 - **Email:** wind6712@hanmail.net
