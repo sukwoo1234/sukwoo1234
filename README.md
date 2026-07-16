@@ -6,7 +6,7 @@
 ### 💡 About Me
 - 🛡️ **Security & Engineering:** 단순한 기능 구현을 넘어 메모리 안전성과 논리적 결함 방지를 고려한 로우레벨 시스템을 설계합니다.
 - ⚙️ **Automation & Productivity:** Rust와 AI CLI 에이전트를 적극 활용하여 개발 생산성을 높이고, 핵심 로직 검증에 집중합니다.
-- 🎯 **Interest:** Format-Aware Fuzzing, Post-Quantum Cryptography (PQC), Side-Channel Analysis (TVLA), CTF
+- 🎯 **Interest:** Format-Aware Fuzzing, AI Model Supply Chain Security, AI Risk Management, CTF
 - 🚀 **Build & Ship:** 도구든 서비스든, 설계 문서부터 배포·운영까지 직접 끝냅니다.
 
 ---
@@ -54,7 +54,17 @@
 - **[공저]** 상수시간으로 구현된 BCH 기반 퍼지추출기의 타이밍 공격 취약성 실험 분석
   — 정보보호학회논문지(JKIISC), 2026
 
-  ---
+---
+
+### 🎓 Certifications & International Programs
+
+- **International Summer School on Cyber Security and Resilience** (2026.07)
+  — University of Applied Sciences St. Pölten, Austria / E³UDRES² European University Alliance
+  * 30시간 과정 수료 — Cyber Defense & Response, AI Risk Management, Zero Trust Security,
+    Cyber Range Exercises (Incident Response), AI-Resistant CTF Challenges
+  * 사이버 공방전 세션 운영·진행 (2인)
+ 
+ ---
 
 ### 📫 Contact
 - **Email:** wind6712@hanmail.net
