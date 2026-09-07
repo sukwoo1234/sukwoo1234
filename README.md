@@ -1,70 +1,83 @@
-# Hi there, I'm Sukwoo Shin 👋
+# Shin Suk-Woo
 
-**안전한 아키텍처를 설계하고 생산성을 최적화하는 시스템 엔지니어**입니다.  
-공격자의 시각으로 시스템의 취약점을 찾아내고, 이를 설계 단계에서 차단하는 견고한 백엔드 구조를 구축하는 데 관심이 많습니다.
+**Security Researcher**
 
-### 💡 About Me
-- 🛡️ **Security & Engineering:** 단순한 기능 구현을 넘어 메모리 안전성과 논리적 결함 방지를 고려한 로우레벨 시스템을 설계합니다.
-- ⚙️ **Automation & Productivity:** Rust와 AI CLI 에이전트를 적극 활용하여 개발 생산성을 높이고, 핵심 로직 검증에 집중합니다.
-- 🎯 **Interest:** Format-Aware Fuzzing, AI Model Supply Chain Security, AI Risk Management, CTF
-- 🚀 **Build & Ship:** 도구든 서비스든, 설계 문서부터 배포·운영까지 직접 끝냅니다.
+AI Security · Vulnerability Research · Fuzzing
 
----
+AI 모델 공급망 보안과 소프트웨어 취약점을 연구합니다.  
+신뢰할 수 없는 입력이 실제 런타임에서 어떤 문제를 만드는지 직접 재현하고,
+원인을 분석해 반복 가능한 검증 도구와 절차로 만드는 데 관심이 있습니다.
 
-### 🛠️ Tech Stack
-
-**Languages**  
-<img src="https://img.shields.io/badge/C%2F%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
-
-**Infrastructure & Tools**  
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/Linux_WSL-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+[Portfolio]() · [Email](mailto:wind6712@hanmail.net)
 
 ---
 
-### 🚀 Key Projects
+## 주요 프로젝트
 
-- **[FuzzGate](https://github.com/sukwoo1234/new-bugbounty)** — AI 모델 포맷 퍼저 (Rust)
-  * ONNX / safetensors / GGUF 로더의 메모리 안정성을 검증하는 Format-Aware Fuzzing 플랫폼 **단독 개발**
-  * 포맷 인지 변이 → 타깃 하네스 실행 → 3회 재현 검증 → 취약점 등급화 → 자동 리포트 파이프라인
-  * SARIF / SIEM 이벤트 출력으로 기존 DevSecOps·보안 관제 파이프라인 통합 지원
-  * 논문에서 제안한 아키텍처를 직접 구현해 재현 가능한 크래시 2건 발견, huntr 제보 (심사 중)
-    — ONNX Runtime SIGSEGV / ONNX shape inference SIGFPE
+### [FuzzGate](https://github.com/sukwoo1234/new-bugbounty)
 
-- **[청대 시그널](https://github.com/sukwoo1234/cheongdae-signal)** — 교내 매칭 웹 서비스 (TypeScript)
-  * Next.js + Supabase 기반. 설계 문서 작성부터 배포·운영까지 단독 수행
-  * 학교 이메일 인증 기반 가입 통제, 미들웨어 라우트 보호, 관리자 권한 분리
-  * Vercel 자동 배포 · 운영 중 → https://cheongdae-signal.vercel.app
+외부 AI 모델 파일의 파싱·로딩 경로를 검증하는 Format-Aware Fuzzing 도구입니다.
 
-- **[Iris Feature Extraction API]**
-  * CNN(ArcFace) 기반 3488-bit 홍채 특징 추출 모듈 개발 및 API 서버 통합
+`Rust` · `AFL++` · `libFuzzer` · `gdb`
+
+- ONNX / safetensors / GGUF 포맷 지원
+- 퍼징 실행 → 재현 검증 → triage → report 파이프라인
+- ONNX / ONNX Runtime에서 재현 가능한 DoS 크래시 2건 분석
+- 재현 절차와 영향 분석 자료를 포함해 huntr에 제보, 현재 검토 중
+- CISC-S 2026 제1저자 연구
+
+### [청대 시그널](https://github.com/sukwoo1234/cheongdae-signal)
+
+청주대학교 학생을 대상으로 직접 기획·개발·배포한 교내 매칭 웹 서비스입니다.
+
+`Next.js` · `TypeScript` · `Supabase` · `PostgreSQL`
+
+- 학교 이메일 기반 가입 자격 검증
+- 인증·인가 및 관리자 권한 분리
+- PostgreSQL RLS / column-level permission 설계
+- `SECURITY DEFINER` RPC를 이용한 민감 데이터 접근 경계 구성
+- 공개 anon key와 사용자 JWT를 이용한 직접 PostgREST 보안 검증
+- Vercel 기반 실제 배포·운영
 
 ---
 
-### 📄 Publications
+## 연구
 
-- **[제1저자]** AI 모델 공급망 보안을 위한 Format-Aware Fuzzing 기반 검증 아키텍처 FuzzGate
-  — 한국정보보호학회 CISC-S 2026
-- **[제1저자]** 유무선 네트워크 환경에 따른 Google reCAPTCHA v2의 취약점 분석 연구
-  — 한국정보보호학회 CISC-S 2026
-- **[공저]** 상수시간으로 구현된 BCH 기반 퍼지추출기의 타이밍 공격 취약성 실험 분석
-  — 정보보호학회논문지(JKIISC), 2026
+**2026**  
+AI 모델 공급망 보안을 위한 Format-Aware Fuzzing 기반 검증 아키텍처 FuzzGate  
+*CISC-S 2026 · 제1저자*
+
+**2026**  
+유무선 네트워크 환경에 따른 Google reCAPTCHA v2의 취약점 분석  
+*CISC-S 2026 · 제1저자*
+
+**2026**  
+상수시간으로 구현된 BCH 기반 퍼지추출기의 타이밍 공격 취약성 실험 분석  
+*JKIISC · 공저*
 
 ---
 
-### 🎓 Certifications & International Programs
+## 진행 중
 
-- **International Summer School on Cyber Security and Resilience** (2026.07)
-  — University of Applied Sciences St. Pölten, Austria / E³UDRES² European University Alliance
-  * 30시간 과정 수료 — Cyber Defense & Response, AI Risk Management, Zero Trust Security,
-    Cyber Range Exercises (Incident Response), AI-Resistant CTF Challenges
-  * 사이버 공방전 세션 운영·진행 (2인)
- 
- ---
+**UEBA / ZTNA Trust Scoring**
 
-### 📫 Contact
-- **Email:** wind6712@hanmail.net
+Variable-Field Attention과 행동 시퀀스 Bi-LSTM을 이용한
+ZTNA Trust Score 산정 모델을 연구하고 있습니다.
+
+**
+
+---
+
+## 관심 분야
+
+- AI Model Supply Chain Security
+- Fuzzing / Vulnerability Research
+- Application Security
+- Authentication / Authorization
+- Security Automation
+
+---
+
+## 연락처
+
+[Email](mailto:wind6712@hanmail.net) · [Portfolio]()
