@@ -8,7 +8,7 @@ AI 모델 공급망 보안과 소프트웨어 취약점을 연구합니다.
 신뢰할 수 없는 입력이 실제 런타임에서 어떤 문제를 만드는지 직접 재현하고,
 원인을 분석해 반복 가능한 검증 도구와 절차로 만드는 데 관심이 있습니다.
 
-[Portfolio]() · [Email](mailto:wind6712@hanmail.net)
+[Portfolio](여기에_Notion_공개_URL) · [Email](mailto:wind6712@hanmail.net)
 
 ---
 
@@ -34,7 +34,7 @@ AI 모델 공급망 보안과 소프트웨어 취약점을 연구합니다.
 
 - 학교 이메일 기반 가입 자격 검증
 - 인증·인가 및 관리자 권한 분리
-- PostgreSQL RLS / column-level permission 설계
+- PostgreSQL RLS / column-level permissions 설계
 - `SECURITY DEFINER` RPC를 이용한 민감 데이터 접근 경계 구성
 - 공개 anon key와 사용자 JWT를 이용한 직접 PostgREST 보안 검증
 - Vercel 기반 실제 배포·운영
@@ -57,14 +57,12 @@ AI 모델 공급망 보안을 위한 Format-Aware Fuzzing 기반 검증 아키�
 
 ---
 
-## 진행 중
+## 진행 중인 연구
 
-**UEBA / ZTNA Trust Scoring**
+### UEBA / ZTNA Trust Scoring
 
 Variable-Field Attention과 행동 시퀀스 Bi-LSTM을 이용한
 ZTNA Trust Score 산정 모델을 연구하고 있습니다.
-
-**
 
 ---
 
@@ -75,9 +73,3 @@ ZTNA Trust Score 산정 모델을 연구하고 있습니다.
 - Application Security
 - Authentication / Authorization
 - Security Automation
-
----
-
-## 연락처
-
-[Email](mailto:wind6712@hanmail.net) · [Portfolio]()
