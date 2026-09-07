@@ -14,7 +14,7 @@ AI 모델 공급망 보안과 소프트웨어 취약점을 연구합니다.
 
 ## 주요 프로젝트
 
-### [FuzzGate](https://github.com/sukwoo1234/new-bugbounty)
+### [FuzzGate](https://github.com/sukwoo1234/fuzzgate)
 
 외부 AI 모델 파일의 파싱·로딩 경로를 검증하는 Format-Aware Fuzzing 도구입니다.
 
