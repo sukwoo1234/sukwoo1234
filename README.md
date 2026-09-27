@@ -22,7 +22,7 @@ AI 모델 공급망 보안과 소프트웨어 취약점을 연구합니다.
 
 - ONNX / safetensors / GGUF 포맷 지원
 - 퍼징 실행 → 재현 검증 → triage → report 파이프라인
-- ONNX / ONNX Runtime에서 재현 가능한 DoS 크래시 2건 분석
+- ONNX 로더·shape inference 크래시 후보 2건 분석, huntr 심사 중(보안 영향 검토 중)
 - 재현 절차와 영향 분석 자료를 포함해 huntr에 제보, 현재 검토 중
 - CISC-S 2026 제1저자 연구
 
