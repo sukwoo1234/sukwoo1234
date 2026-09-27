@@ -8,7 +8,7 @@ AI 모델 공급망 보안과 소프트웨어 취약점을 연구합니다.
 신뢰할 수 없는 입력이 실제 런타임에서 어떤 문제를 만드는지 직접 재현하고,
 원인을 분석해 반복 가능한 검증 도구와 절차로 만드는 데 관심이 있습니다.
 
-[Portfolio](여기에_Notion_공개_URL) · [Email](mailto:wind6712@hanmail.net)
+[Portfolio](https://balsam-handsaw-01b.notion.site/3d376f9245f9815682d7d8d1be0663c5) · [Email](mailto:wind6712@hanmail.net)
 
 ---
 
