@@ -57,15 +57,6 @@ AI 모델 공급망 보안을 위한 Format-Aware Fuzzing 기반 검증 아키�
 
 ---
 
-## 진행 중인 연구
-
-### UEBA / ZTNA Trust Scoring
-
-Variable-Field Attention과 행동 시퀀스 Bi-LSTM을 이용한
-ZTNA Trust Score 산정 모델을 연구하고 있습니다.
-
----
-
 ## 관심 분야
 
 - AI Model Supply Chain Security
